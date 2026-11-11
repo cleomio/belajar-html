@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar HTML</title>
+    <style>
+      body {background-color: lightblue;}
+      h1 {color: darkblue;}
+      button {background-color: darkblue;
+              color:white;
+              padding: 10px 20px;
+              border:none;
+              border-radius: 8px;
+              font-size: 16px;
+             }
+      </style>
+  </head>
+  
+  <body>
+    <h1>Halo,saya sedang belajar HTML</h1>
+      <p>ini adalah halaman web pertama saya</p>
+    <h2 id="judul2">Selamat datang di halaman saya</h2>
+    <img src="./foto.jpg/Penari balet.jpg"alt="Penari balet">
+    <button onclick="document.body.style.backgroundColor='lightgreen'"">klik saya</button>
+    <button
+      onclick="document.querySelector('h1').style.color='red'">Ubah warna judul</button>
+    <button
+      onclick="document.getElementById('judul2')
+      .innerHTML='Saya berhasil belajar HTML!'">Ubah tulisan</button>
+    <a
+      href="https://www.google.com"target=_blank">Kunjungi Google</a>
+    
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Saya</title>
+  </head>
+  <body>
+
+    <h1>Form Data Pengguna</h1>
+
+    <form method="POST">
+
+      <label>Nama:</label>
+      <input type="text" name="nama">
+      <br><br>
+
+      <label>Password:</label>
+      <input type="password" name="password">
+      <br><br>
+
+      <label>Jenis Kelamin:</label>
+      <input type="radio" name="jk" value="L">Laki-laki
+      <input type="radio" name="jk" value="P">Perempuan
+      <br><br>
+      <label>Hobi:</label>
+      <input type="checkbox" name="hobi" value="membaca
+        <input type="checkbox" name="hobi" value="memasak"> memasak
+      <input type="checkbox" name="hobi" value="olah raga"> olah raga
+      <br><br>
+
+      <input type="submit" value="kirim"
+    </form>
+  </body>
+</html>
